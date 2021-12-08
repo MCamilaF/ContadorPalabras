@@ -10,7 +10,7 @@ def contador(frase):
 
 def run():
     frase = input("¿En qué estas pensando?\n")
-    print(contador(frase))
+    print("Muy bien, me has mostrado tu pensamiento en ",contador(frase), "palabras")
 
 
 if __name__ == "__main__":
